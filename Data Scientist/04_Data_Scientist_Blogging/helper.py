@@ -251,7 +251,7 @@ def model_data(sea_df, bos_df, random_state=777):
 	                        ## retrieve cv results dataframe
 	                        cv_results = xgb.cv(dtrain=data_dmatrix, params=param, nfold=5,
 	                                            num_boost_round=50, early_stopping_rounds=20, 
-	                                            metrics="rmse", as_pandas=True, seed=(777*29)%10000)
+	                                            metrics="rmse", as_pandas=True, seed=(random_state*29)%10000)
 	                        cv_score = cv_results["test-rmse-mean"].iloc[-1]
 	                        ## append the score and parameters to params
 	                        params.append((cv_score, param))
