@@ -50,7 +50,7 @@ As a travel lover, I hoppoed around many places with Airbnb. Visiting different 
 These are brief summary of what I found:
 
 1. Boston is more expensive city to travel with Airbnb than Seattle. This phenomenon complies with the current median rent per month trend in two cities — Boston is more expensive to rent a property.
-2. Hosts in Boston own more Airbnb properties on average and there are more ‘super’ hosts. Therefore, we might imply that a few super hosts can sway average price in the city.
+2. Hosts in Boston own more Airbnb properties on average and there are more ‘super’ hosts. Therefore, it might imply that a few super hosts can sway average price in the city.
 3. High proportion locations correspond to high rent areas in both Seattle and Boston. Therefore, we may assume rent, location, and Airbnb price are closely related.
 4. From important features, we know that popularity, location, level of comfort, and property rules impact on the Airbnb price.
 
