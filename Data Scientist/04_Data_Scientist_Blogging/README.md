@@ -56,13 +56,13 @@ These are brief summary of what I found:
 
 
 ## More Details on Concepts <a name="concepts"></a>
-I employed the notorious Extreme Gradient Boosting (a.k.a. XGBoost) regressor as a framework together with exhaustive grid search cross validation
+I employed the notorious Extreme Gradient Boosting (a.k.a. XGBoost) regressor as a framework together with exhaustive grid search cross validation.
 
 As the name reveals, XGBoost uses Gradient Boosting approach in Ensemble techniques. I will not get very technical, but in case there are some folks struggling with jargons, here is is how I understand Boosting, Ensemble, and Gradient Boosting.
 
 - Ensemble is a collection of multiple learning algorithms. Intuition behind the Ensemble method is a certain decision tree model can be hardly trusted since it can make good predictions with a particular problem but poor with others. Therefore, ensembles combine multiple hypothesis (weak learners) to form a better, strong learner that gives more stable predictors. Think of this way: a Congressman doesn't decide a policy, but 435 Congressmen and Congresswomen together for a better result.
 - Boosting is a sequential technique which works on the principle of an ensemble. It combines a set of weak learners and delivers improved prediction accuracy. It is actually very similar to our experiences! When you work on a team project, you need to check which members are falling behind at each step. The team needs extra care and push for the member headed in the wrong direction. Likewise, in Boosting model if we observe data points wrongly predicted in each step, we put more weights on those points so the model corrects the prediction.
-- Gradient Boosting is a part of Boosting techniques. The objective of Gradient Boosting is minimizing the loss from wrongly predicting the value. Using gradient descent and updating our predictions based on a learning rate, we can find the values where the loss is minimum. It is like coming down a mountain through shortest paths. Gradient Boosting models want to find a pattern to make the loss minimum because it believes less model performs better.
+- Gradient Boosting is a part of Boosting techniques. The objective of Gradient Boosting is minimizing the loss from wrongly predicting the value. Using gradient descent and updating our predictions based on a learning rate, we can find the values where the loss is minimum. It is like coming down a mountain through shortest paths. Gradient Boosting models want to find a pattern to make the loss minimum because it believes the model with less loss performs better.
 
 XGBoost is one of the most popular machine learning algorithm these days and its - 1) speed and performance, 2) parallelizable core algorithm, 3) outperforming other algorithm methods in many cases, and 4) wide variety of tuning parameters - helps its popularity among data geeks.
 
