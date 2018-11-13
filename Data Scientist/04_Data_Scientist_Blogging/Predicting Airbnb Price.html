@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Predicting Airbnb Price in Seattle and Boston</title>
+<title>Predicting Airbnb Price</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,7 +13116,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Predicting-Airbnb-Price-in-Seattle-and-Boston">Predicting Airbnb Price in Seattle and Boston<a class="anchor-link" href="#Predicting-Airbnb-Price-in-Seattle-and-Boston">&#182;</a></h1>
+<h1 id="Predicting-Airbnb-Price">Predicting Airbnb Price<a class="anchor-link" href="#Predicting-Airbnb-Price">&#182;</a></h1><h2 id="--based-on-Seattle,-Boston-Airbnb-Datasets">- based on Seattle, Boston Airbnb Datasets<a class="anchor-link" href="#--based-on-Seattle,-Boston-Airbnb-Datasets">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15676,7 +15676,7 @@ dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Let us see 10 random picked true price values and prediced price values</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Let us see 10 random picked true price values and predicted price values</span>
 <span class="n">compare_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;y_test&#39;</span><span class="p">:</span> <span class="n">y_test</span><span class="p">,</span> <span class="s1">&#39;y_hat&#39;</span><span class="p">:</span> <span class="n">y_hat</span><span class="p">})</span>
 <span class="n">ind</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">compare_df</span><span class="p">),</span> <span class="mi">10</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="n">compare_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span>

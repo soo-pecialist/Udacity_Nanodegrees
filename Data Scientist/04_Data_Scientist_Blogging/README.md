@@ -1,4 +1,4 @@
-# Predicting Airbnb Price in Seattle and Boston
+# Predicting Airbnb Price
 You can see my blog on Medium: https://medium.com/@soopecialist/this-will-make-you-know-how-much-you-need-to-travel-with-airbnb-442abd51c8c4
 
 ## Table of Contents
@@ -26,8 +26,8 @@ There should be no impediments to running the code beyond the Anaconda distribut
 
 
 ## File Descriptions <a name="files"></a>
-- Predicting Airbnb Price in Seattle and Boston.ipynb: You can see my code and detailed analysis in this notebook. The notebook adheres to CRSP-DM process (Cross Industry Process for Data Mining).
-- Predicting Airbnb Price in Seattle and Boston.html: The static html version of the notebook
+- Predicting Airbnb Price.ipynb: You can see my code and detailed analysis in this notebook. The notebook adheres to CRSP-DM process (Cross Industry Process for Data Mining).
+- Predicting Airbnb Price.html: The static html version of the notebook
 - helper.py: This python script contains all modularized functions for the analysis conducted in the notebook.
 - data/boston: Contains 'listings.csv' file about Boston Airbnb infromation I used.
 - data/seattle: Contains 'listings.csv' file about Boston Airbnb infromation I used.
@@ -68,6 +68,6 @@ XGBoost is one of the most popular machine learning algorithm these days and its
 
 
 ## Acknowledgements <a name="acknowledgements"></a>
-You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/home) and [here](https://www.kaggle.com/airbnb/boston/home)
+You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/home) and [here](https://www.kaggle.com/airbnb/boston/home).
 
 You may use the code here as you would here. We data scientists share!
