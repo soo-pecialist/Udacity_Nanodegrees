@@ -70,4 +70,4 @@ XGBoost is one of the most popular machine learning algorithm these days and its
 ## Acknowledgements <a name="acknowledgements"></a>
 You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle/home) and [here](https://www.kaggle.com/airbnb/boston/home).
 
-You may use the code here as you would here. We data scientists share!
+You may use the code here as you would like. We data scientists share!
